@@ -1,1 +1,0 @@
-﻿docker run -d -u root --name jenkins5 -p 8083:8083 -p 50003:50003 -v /root/jenkins_2112:/var/jenkins_home jenkins/jenkins
