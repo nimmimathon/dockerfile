@@ -1,2 +1,6 @@
-FROM jenkins/jenkins:latest
-EXPOSE 8088
+FROM scratch
+EXPOSE 80
+
+COPY http-server /
+
+CMD ["/http-server"]
