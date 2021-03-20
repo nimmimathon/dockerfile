@@ -1,2 +1,2 @@
-FROM jenkins/jenkins
-EXPOSE 8086
+FROM jenkins/jenkins:latest
+EXPOSE 8088
