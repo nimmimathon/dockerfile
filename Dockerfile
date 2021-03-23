@@ -1,6 +1,2 @@
-FROM scratch
-EXPOSE 80
-
-COPY http-server /
-
-CMD ["/http-server"]
+FROM mcr.microsoft.com/dynamicsnav:2018-cu18
+EXPOSE 8090:8090
